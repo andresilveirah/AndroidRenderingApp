@@ -20,9 +20,4 @@ public class MainActivity extends AppCompatActivity {
         webview.getSettings().setJavaScriptEnabled(true);
         webview.loadUrl("https://preprod-cdn.privacy-mgmt.com/privacy-manager-ott/index.html?message_id=623981");
     }
-
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-    }
 }
